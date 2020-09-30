@@ -1,0 +1,5 @@
+Import('*')
+SimObject('TestHelloObject.py')
+Source('testhello_object.cc')
+Source('testgoodbye_object.cc')
+DebugFlag('TestHello')
